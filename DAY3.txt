@@ -1,0 +1,40 @@
+/*------javascript---------*/
+function call()
+{
+
+    let name=document.querySelector("#inp").value;
+    console.log(name);
+   document.querySelector("#sec").innerHTML=`<h1>${name}</h1>`;
+   
+    let city=document.querySelector("#inp").value;
+     console.log(city);
+
+    document.querySelector("#sec").innerHTML=`<h1>${city}</h1>`;
+
+
+}
+/*-----------html-----------*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT3</title>
+    <script src="first.js"></script>
+    <style>
+    #sec
+    {
+    height:150px;
+    width:150px;
+    background-color: blue;
+    }
+    </style>
+</head>
+<body>
+    <input type="text" id="inp" placeholder="Name" onkeyup="call()"/>
+    <input type="text" id="inp" placeholder="City" onkeyup="call()"/>
+    <button onclick="call()">add</button>
+    <div id="sec"></div>
+</body>
+</html>
