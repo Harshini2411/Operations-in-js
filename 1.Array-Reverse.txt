@@ -1,3 +1,0 @@
-const array=["h","e","l","l","o"];
-x=array.reverse();
-console.log(x);
