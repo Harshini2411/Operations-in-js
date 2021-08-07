@@ -1,0 +1,12 @@
+   let a=23;
+   let b=6;
+   let c=a+b;
+   console.log(c);
+   let c=a-b;
+   console.log(c);
+   let c=a*b;
+   console.log(c);
+   let c=a/b;
+   console.log(c);
+   //template syntax
+   console.log(`value for addition is ${c} value for subtraction is ${c} value for multiplication is ${c} value for division is ${c}`);  
